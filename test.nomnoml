@@ -1,0 +1,41 @@
+#lineWidth: 1
+#.link: fill=#dfffdb dashed
+#fill: #FFFFFF
+
+#.admin: fill=#ffd294
+
+
+[welcome|rapida introduzione e benvenuto]
+[info|mostra info, dettagli e burocrazia]
+
+[map|mostra la mappa con i segnalini degli elementi|🔧 gps|🔧 mappa?]
+[qrScan|scansiona il qrcode e manda all'elemento|🔧 scansione qrcode]
+[elemento|mostra tutti gli elementi multimediali collegati all'elemento]
+
+[<link>link|portano direttamente alla sezione interessata|🔧 intercettare link]
+
+
+[<admin>admin home]
+[<admin>admin utenti]
+[<admin>edit elemento]
+
+
+[welcome] -> [map]
+
+[map] <-> [admin home]
+[map] -> [qrScan]
+[map] -> [elemento]
+[map] <-> [info]
+
+[admin home] <-> [admin utenti]
+[admin home] -> [edit elemento]
+
+[qrScan] <-> [elemento]
+
+[elemento] <-> [edit elemento]
+
+[link] -> [elemento]
+[link] -> [map]
+
+
+

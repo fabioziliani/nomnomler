@@ -1,0 +1,18 @@
+{
+	"name": "nomnomler",
+	"version": "0.1.0",
+	"description": "Generates a nomnoml svg diagrams watching a source file",
+	"repository": {},
+	"main": "./index.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"keywords": [],
+	"author": "Fabio Ziliani <fabio.ziliani@gmail.com>",
+	"license": "UNLICENSED",
+	"dependencies": {
+		"nomnoml": "^1.3.1"
+	},
+	"devDependencies": {
+	}
+}

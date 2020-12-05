@@ -1,0 +1,110 @@
+<svg version="1.1" baseProfile="full" width="1129.5" height="589" viewbox="0 0 1129.5 589" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font:bold normal 12pt Helvetica, Helvetica, sans-serif;;stroke-linejoin:round;stroke-linecap:round">
+  <desc >#lineWidth: 1
+#.link: fill=#dfffdb dashed
+#fill: #FFFFFF
+
+#.admin: fill=#ffd294
+
+
+[welcome|rapida introduzione e benvenuto]
+[info|mostra info, dettagli e burocrazia]
+
+[map|mostra la mappa con i segnalini degli elementi|🔧 gps|🔧 mappa?]
+[qrScan|scansiona il qrcode e manda all&apos;elemento|🔧 scansione qrcode]
+[elemento|mostra tutti gli elementi multimediali collegati all&apos;elemento]
+
+[&lt;link&gt;link|portano direttamente alla sezione interessata|🔧 intercettare link]
+
+
+[&lt;admin&gt;admin home]
+[&lt;admin&gt;admin utenti]
+[&lt;admin&gt;edit elemento]
+
+
+[welcome] -&gt; [map]
+
+[map] &lt;-&gt; [admin home]
+[map] -&gt; [qrScan]
+[map] -&gt; [elemento]
+[map] &lt;-&gt; [info]
+
+[admin home] &lt;-&gt; [admin utenti]
+[admin home] -&gt; [edit elemento]
+
+[qrScan] &lt;-&gt; [elemento]
+
+[elemento] &lt;-&gt; [edit elemento]
+
+[link] -&gt; [elemento]
+[link] -&gt; [map]
+
+
+
+</desc>
+  <rect x="0" y="0" height="589" width="1129.5" style="stroke:none; fill:transparent;"></rect>
+  <path d="M467.3 91 L467.3 126.5 L467.3 146.5 L467.3 146.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M461.9 133.2 L467.3 139.8 L472.6 133.2 L467.3 146.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M276.3 247.9 L70 290.5 L70 357 L70 357 L70 423.5 L70 423.5 L70 459 L70 459 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M64.7 445.7 L70 452.3 L75.3 445.7 L70 459 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M264.3 255.8 L269.7 249.3 L262.1 245.4 L276.3 247.9 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M342.3 270.5 L302 290.5 L302 310.5 L302 310.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M296.7 297.2 L302 303.8 L307.3 297.2 L302 310.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M502.6 270.5 L514 290.5 L514 357 L514 357 L514 423.5 L514 423.5 L487.8 443.5 L487.8 443.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M495.2 431.2 L493.1 439.5 L501.7 439.6 L487.8 443.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M637.2 270.5 L692 290.5 L692 326 L692 326 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M686.7 312.7 L692 319.3 L697.3 312.7 L692 326 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M651.5 270.1 L643.4 272.8 L647.9 280.1 L637.2 270.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M70 490 L70 525.5 L70 545.5 L70 545.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M64.7 532.2 L70 538.8 L75.3 532.2 L70 545.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M75.3 503.3 L70 496.7 L64.7 503.3 L70 490 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M120.2 490 L235.3 525.5 L359.8 549.3 L359.8 549.3 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M345.7 552 L353.2 548 L347.7 541.5 L359.8 549.3 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M302 403.5 L302 423.5 L359 443.5 L359 443.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M344.6 444.1 L352.7 441.3 L348.1 434.1 L359 443.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M307.3 416.8 L302 410.2 L296.7 416.8 L302 403.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M447.3 505.5 L447.3 525.5 L432.6 545.5 L432.6 545.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M436.2 531.6 L436.5 540.1 L444.8 537.9 L432.6 545.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M452.6 518.8 L447.3 512.2 L441.9 518.8 L447.3 505.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M888 106.5 L870 126.5 L870 208.5 L870 208.5 L870 290.5 L870 290.5 L870 357 L870 357 L870 423.5 L870 423.5 L681.3 446.3 L681.3 446.3 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M693.8 439.4 L687.9 445.5 L695.1 450 L681.3 446.3 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M930 106.5 L930 126.5 L658.3 174.7 L658.3 174.7 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M670.4 167.1 L664.8 173.5 L672.3 177.6 L658.3 174.7 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:1;"></path>
+  <rect x="276.5" y="146.5" height="124" width="382" data-name="map" style="stroke:#33322E;fill:#FFFFFF;stroke-dasharray:none;stroke-width:1;"></rect>
+  <text x="467.5" y="168" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="map">map</text>
+  <text x="284.5" y="199" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="map">mostra la mappa con i segnalini degli elementi</text>
+  <text x="284.5" y="230" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="map">🔧 gps</text>
+  <text x="284.5" y="261" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="map">🔧 mappa?</text>
+  <path d="M276.5 177.5 L658.5 177.5" data-name="map" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M276.5 208.5 L658.5 208.5" data-name="map" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M276.5 239.5 L658.5 239.5" data-name="map" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <rect x="130.5" y="310.5" height="93" width="344" data-name="qrScan" style="stroke:#33322E;fill:#FFFFFF;stroke-dasharray:none;stroke-width:1;"></rect>
+  <text x="302.5" y="332" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="qrScan">qrScan</text>
+  <text x="138.5" y="363" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="qrScan">scansiona il qrcode e manda all&apos;elemento</text>
+  <text x="138.5" y="394" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="qrScan">🔧 scansione qrcode</text>
+  <path d="M130.5 341.5 L474.5 341.5" data-name="qrScan" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M130.5 372.5 L474.5 372.5" data-name="qrScan" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <rect x="743.5" y="13.5" height="93" width="374" data-name="link" style="stroke:#33322E;fill:#dfffdb;stroke-dasharray:4 4;stroke-width:1;"></rect>
+  <text x="930.5" y="35" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="link">link</text>
+  <text x="751.5" y="66" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="link">portano direttamente alla sezione interessata</text>
+  <text x="751.5" y="97" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="link">🔧 intercettare link</text>
+  <path d="M743.5 44.5 L1117.5 44.5" data-name="link" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <path d="M743.5 75.5 L1117.5 75.5" data-name="link" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <rect x="330.5" y="29.5" height="62" width="273" data-name="welcome" style="stroke:#33322E;fill:#FFFFFF;stroke-dasharray:none;stroke-width:1;"></rect>
+  <text x="467" y="51" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="welcome">welcome</text>
+  <text x="338.5" y="82" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="welcome">rapida introduzione e benvenuto</text>
+  <path d="M330.5 60.5 L603.5 60.5" data-name="welcome" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <rect x="554.5" y="326.5" height="62" width="276" data-name="info" style="stroke:#33322E;fill:#FFFFFF;stroke-dasharray:none;stroke-width:1;"></rect>
+  <text x="692.5" y="348" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="info">info</text>
+  <text x="562.5" y="379" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="info">mostra info, dettagli e burocrazia</text>
+  <path d="M554.5 357.5 L830.5 357.5" data-name="info" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <rect x="213.5" y="443.5" height="62" width="468" data-name="elemento" style="stroke:#33322E;fill:#FFFFFF;stroke-dasharray:none;stroke-width:1;"></rect>
+  <text x="447.5" y="465" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="elemento">elemento</text>
+  <text x="221.5" y="496" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="elemento">mostra tutti gli elementi multimediali collegati all&apos;elemento</text>
+  <path d="M213.5 474.5 L681.5 474.5" data-name="elemento" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:1;"></path>
+  <rect x="13.5" y="459.5" height="31" width="113" data-name="admin home" style="stroke:#33322E;fill:#ffd294;stroke-dasharray:none;stroke-width:1;"></rect>
+  <text x="70" y="481" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="admin home">admin home</text>
+  <rect x="13.5" y="545.5" height="31" width="113" data-name="admin utenti" style="stroke:#33322E;fill:#ffd294;stroke-dasharray:none;stroke-width:1;"></rect>
+  <text x="70" y="567" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="admin utenti">admin utenti</text>
+  <rect x="359.5" y="545.5" height="31" width="123" data-name="edit elemento" style="stroke:#33322E;fill:#ffd294;stroke-dasharray:none;stroke-width:1;"></rect>
+  <text x="421" y="567" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="edit elemento">edit elemento</text>
+</svg>
